@@ -1,13 +1,4 @@
 @font-face {
-  font-weight: normal;
-  font-family: 'SF Pro';
-  font-style: normal;
-  font-display: swap;
-  src: url('../../fonts/SFProDisplay-Regular.woff2') format('woff2'),
-    url('../../fonts/SFProDisplay-Regular.woff') format('woff');
-}
-
-@font-face {
   font-weight: lighter;
   font-family: 'SF Pro';
   font-style: normal;
