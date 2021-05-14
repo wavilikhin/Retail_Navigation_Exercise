@@ -47,9 +47,9 @@
 .underline {
   position: absolute;
   bottom: -1px;
-  left: 141px;
   height: 1px;
-  width: 68px;
+  /* left: 141px; */
+  /* width: 68px; */
   background-color: black;
   transition: all 0.3s ease-out;
 }
