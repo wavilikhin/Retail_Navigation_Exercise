@@ -1,0 +1,55 @@
+/* 
+  --gray: rgb(145,145,145)
+  --light-gray: rgb(214,214,214)
+  --accent-blue: rgb(50, 112, 166)
+  --main-font: 'SF Pro', sans-serif; */
+
+.cities {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  padding: 0.5em 0;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.cities-list {
+  width: 83%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: lighter;
+}
+
+.cities-item {
+  display: inline-block;
+  font-size: 12px;
+  color: rgb(145, 145, 145);
+  cursor: default;
+  transition: all 0.1s ease-in-out;
+}
+
+.cities-item:hover {
+  color: rgb(82, 143, 196);
+  cursor: pointer;
+}
+
+.cities-item--active:hover {
+  color: black;
+  cursor: default;
+}
+
+.cities-item--active {
+  color: black;
+}
+
+.underline {
+  position: absolute;
+  bottom: -1px;
+  left: 141px;
+  height: 1px;
+  width: 68px;
+  background-color: black;
+  transition: all 0.3s ease-out;
+}
